@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+header{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.search>input{
+    height: 30px;
+    width: 530px;
+    padding: 0px 30px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    border: .2px solid gray;
+}
+.search>img{
+    height: 20px;
+    position: relative;
+    left: 35px;
+    top: 5px;
+}
+.sign>select{
+    font-size: 16px;
+    background-color: inherit;
+    border: none;
+    width: 120px;
+}
+.sign>button{
+    font-size: 16px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
